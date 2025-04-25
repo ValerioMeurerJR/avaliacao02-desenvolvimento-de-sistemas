@@ -1,14 +1,9 @@
 {
   "itens": [
     {
-      "id": "b0af9b62-bd4b-4b55-98b2-b8d1bba1dbb1",
-      "text": "Arroz",
-      "checked": false
-    },
-    {
       "id": "c5d0bc3b-fc6e-4f52-95be-f3814ec7b2b8",
       "text": "Feijão",
-      "checked": true
+      "checked": false
     },
     {
       "id": "b0d50a18-3121-4b97-9de9-99d6e254c95e",
@@ -21,9 +16,9 @@
       "checked": true
     },
     {
-      "id": "e35d8b6f-d73b-4fba-88d0-b51b387cbd9d",
-      "text": "Alface",
-      "checked": false
+      "id": "cdd1",
+      "text": "Novo",
+      "checked": true
     }
   ]
 }
