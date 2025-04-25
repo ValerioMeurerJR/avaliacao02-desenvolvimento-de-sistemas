@@ -60,20 +60,21 @@ export default function MarketList() {
 
   return (
     <div className="container">
-      <h1>ToDo List</h1>
+      <h1>MarketList</h1>
       <div className="grupo-input">
         <input
           type="text"
+          className='tarefa-text'
           placeholder="Adicionar uma nova tarefa"
           value={item}
           onChange={(e) => { setItem(e.target.value) }}
         />
-        <button id="add-tarefa" onClick={handleAddItem}>
+        <button className="add-tarefa" onClick={handleAddItem}>
           <span className="material-symbols-outlined">
           <AddIcon />
           </span></button>
       </div>
-      <ul id="lista-tarefa">
+      <ul className="lista-tarefa">
         {
           lista.map(value => (
             <li key={value.id} className={`${value.checked && "completed"}`}>

@@ -42,7 +42,7 @@ body {
 }
 
 
-#tarefa-text {
+.tarefa-text {
     flex: 1;
     padding: 10px;
     border: 1px solid #cccc;
@@ -51,7 +51,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#add-tarefa {
+.add-tarefa {
     padding: 10px 20px;
     background-color: #28a745;
     color: #fff;
@@ -60,17 +60,17 @@ body {
     cursor: pointer;
 }
 
-#add-tarefa:hover {
+.add-tarefa:hover {
     background-color: #218838;
 }
 
-#lista-tarefa {
+.lista-tarefa {
     list-style-type: none;
     margin-top: 20px;
 }
 
 
-#lista-tarefa li {
+.lista-tarefa li {
     background-color: #00b0ff40;
     border: 1px solid #00b0ff40;
     display: flex;
